@@ -11,12 +11,22 @@ header .logo {
     background: plum;
 }
 
-.about-us .img {
+.about-us .img,
+.service-items .img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
     height: 400px;
     overflow-y: hidden;
+}
+
+.service-items .img {
+    height: 300px;
+}
+
+.service-items .card {
+    height: 100%;
+    background: #eccccf;
 }
 
 footer {
