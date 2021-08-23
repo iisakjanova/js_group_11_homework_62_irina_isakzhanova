@@ -23,7 +23,7 @@ const Header = () => {
                         <li key={item.id} className="d-inline px-3">
                             <NavLink
                                 to={item.route}
-                                className="text-uppercase text-decoration-none text-white"
+                                className="text-uppercase text-decoration-none nav-item"
                             >
                                 {item.name}
                             </NavLink>
