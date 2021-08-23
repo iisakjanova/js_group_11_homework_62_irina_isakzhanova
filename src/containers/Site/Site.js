@@ -3,9 +3,12 @@ import {Switch, Route} from 'react-router-dom';
 
 import Header from "../../components/Header/Header";
 import AboutUs from "../AboutUs/AboutUs";
-import OurContacts from "../OurContacts/OurContacts";
-import OurServices from "../OurServices/OurServices";
+import Contacts from "../Contacts/Contacts";
+import Services from "../Services/Services";
+
+import './bootstrap.min.css';
 import './Site.css';
+import Footer from "../../components/Footer/Footer";
 
 const Site = () => {
     return (
@@ -19,12 +22,13 @@ const Site = () => {
                     <AboutUs />
                 </Route>
                 <Route path="/services">
-                    <OurServices />
+                    <Services />
                 </Route>
                 <Route path="/contacts">
-                    <OurContacts />
+                    <Contacts />
                 </Route>
             </Switch>
+            <Footer />
         </div>
     );
 };

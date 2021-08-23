@@ -5,8 +5,8 @@ import {NavLink} from "react-router-dom";
 const Header = () => {
     const [listItems] = useState([
         {name: 'About us', id: nanoid(), route: '/about'},
-        {name: 'Our services', id: nanoid(), route: '/services'},
-        {name: 'Our contacts', id: nanoid(), route: '/contacts'},
+        {name: 'Services', id: nanoid(), route: '/services'},
+        {name: 'Contacts', id: nanoid(), route: '/contacts'},
     ]);
 
     return (
@@ -14,7 +14,7 @@ const Header = () => {
             <div className="d-flex justify-content-between container">
                 <NavLink
                     to='/'
-                    className="logo text-white text-decoration-none"
+                    className="logo text-white text-decoration-none px-2"
                 >
                     <b>~Perfect~</b>
                 </NavLink>

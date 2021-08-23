@@ -6,3 +6,19 @@ header .logo {
     font-size: 40px;
     font-style: italic;
 }
+
+.page {
+    background: plum;
+}
+
+.about-us .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 400px;
+    overflow-y: hidden;
+}
+
+footer {
+    background: mediumpurple;
+}
