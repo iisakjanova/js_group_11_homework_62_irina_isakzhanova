@@ -1,0 +1,8 @@
+header {
+    background: mediumpurple;
+}
+
+header .logo {
+    font-size: 40px;
+    font-style: italic;
+}
