@@ -10,19 +10,19 @@ import nailsImg from '../../assets/Nails.jpeg';
 const Services = () => {
     const [services] = useState([
         {
-            id:nanoid(),
+            id: nanoid(),
             name: 'Cosmetology',
             img: cosmetologyImg,
             list: ['Epilation', 'Anti-age programs', 'Face cleaning'],
         },
         {
-            id:nanoid(),
+            id: nanoid(),
             name: 'Hair',
             img:hairImg,
             list: ['Women haircut', 'Men haircut', 'Children haircut', 'Coloring', 'Styling'],
         },
         {
-            id:nanoid(),
+            id: nanoid(),
             name: 'Nails',
             img:nailsImg,
             list: ['Manicure', 'Nail extension', 'Gel polish', 'pedicure'],
